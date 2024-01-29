@@ -8,9 +8,9 @@ import link from '../assets/link.png'
 const Intro = () => {
   return (
     <div className="intro">
-      <h2>Intro</h2>
-      <img src={dots} alt="dots" />
       <div className="about">
+        <h2>Intro</h2>
+        <img src={dots} alt="dots" />
         <p>
           I am an experienced joiner with <br /> well developed skills.
         </p>
@@ -23,7 +23,8 @@ const Intro = () => {
             <img src={briefcase} alt="brief" /> <span>2972 Westheimer Rd.</span>
           </div>
           <div className="address-details">
-            <img src={calender} alt="calender" /> <span>2972 Westheimer Rd.</span>
+            <img src={calender} alt="calender" />{" "}
+            <span>2972 Westheimer Rd.</span>
           </div>
           <div className="address-details">
             <img src={link} alt="link" /> <span>2972 Westheimer Rd.</span>

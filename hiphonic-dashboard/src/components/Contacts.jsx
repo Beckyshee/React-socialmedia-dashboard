@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import './Contacts.scss'
 import wade from "../assets/wade.png"
 import jane from "../assets/jane.png"

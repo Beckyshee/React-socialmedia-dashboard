@@ -4,12 +4,13 @@ import LeftContent from "./LeftContent"
 import "./MainBody.scss"
 
 
+
 const MainBody = () => {
   return (
     <div className="body_container">
       <SideNav />
       <LeftContent />
-      
+     
     </div>
   );
 };

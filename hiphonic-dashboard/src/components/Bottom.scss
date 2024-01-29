@@ -1,5 +1,19 @@
-// .bottom{
-//     height: 80px;
-//     width: 80vw;
-//     background-color: #fef;
-// }
+.main{
+    display: flex;
+    
+    width: 1150px;
+    height:fit-content;
+    background-color: yellow;
+    margin-top: -40px;
+    margin-left: 20px;
+    .bottom{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}

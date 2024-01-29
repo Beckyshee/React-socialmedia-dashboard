@@ -1,0 +1,17 @@
+.photos{
+    // display: flex;
+    background-color: green;
+    width: 264px;
+    height: 170px;
+    margin-bottom: 20px;
+
+    .about{
+        display: flex;
+        gap: 2rem;
+    }
+    .images{
+        display: flex;
+        gap: 2rem;
+    }
+   
+}

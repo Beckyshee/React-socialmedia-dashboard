@@ -1,0 +1,43 @@
+.blueimage{
+    display: flex;
+    flex-direction: column;
+    .avatar{
+        margin-left: 20px;
+        margin-top: -50px;
+        position: relative;
+        width: 100px;
+    }
+
+    .info{
+        display: flex;
+        width: 100px;
+        margin-top: -50px;
+        padding-left: 20px;
+        margin-bottom: 100px;
+        // background-color: #fff;
+    }
+    .profile{
+        margin-left: 850%;
+        display: flex;
+        gap: 3rem;
+        
+        
+    }
+    .posty{
+        border-right: 1px solid;
+        margin-right: 2px;
+        padding-right: 4%;
+    }
+    
+    
+    .left-cards{
+        width: 300px;
+        display: flex;
+        margin-right: -200px;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+   
+}
