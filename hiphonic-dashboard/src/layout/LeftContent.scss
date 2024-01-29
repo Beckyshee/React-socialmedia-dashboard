@@ -1,0 +1,14 @@
+.leftContent{
+  display: flex;
+  flex: 6;
+  gap: 10px;
+  height: 100vh;
+  .rightSide{
+    width: 75%;
+    background-color: #F8FAFC;
+  }
+  .leftSide{
+    width: 25%;
+    height: 100%;
+  }
+}
