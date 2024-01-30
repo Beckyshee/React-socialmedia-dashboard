@@ -1,4 +1,4 @@
-import React from "react";
+
 import SideNav from "./SideNav"
 import LeftContent from "./LeftContent"
 import "./MainBody.scss"

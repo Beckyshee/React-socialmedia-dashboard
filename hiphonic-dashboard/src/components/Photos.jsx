@@ -5,7 +5,7 @@ import './Photos.scss'
 
 const Photos = () => {
   return (
-    <div className="photos">
+    <div className="photoz">
       <div className='about'>
         <h2>Photos</h2>
         <p>See All</p>

@@ -4,16 +4,30 @@ import Groups from "../components/Groups";
 import Contacts from "../components/Contacts";
 import Top from "../components/Top";
 import Bottom from "../components/Bottom";
+// import Mind from '../components/Mind';
+// import Last from '../components/Last'
+import Post from '../layout/Post'
 
 function LeftContent() {
   return (
     <div className="leftContent">
       <div className="rightSide">
         <div className="top">
-          <Top/>
+          <Top />
         </div>
-        <div className="bottom">
-          <Bottom/>
+        <div className="list-bottom">
+          <div className="bottom">
+            <Bottom />
+          </div>
+          <div className="post">
+            <Post/>
+          </div>
+          {/* <div className="card">
+            <Mind />
+            <div className="last">
+              <Last />
+            </div>
+          </div> */}
         </div>
       </div>
       <div className="leftSide">

@@ -1,14 +1,40 @@
-.leftContent{
+.leftContent {
   display: flex;
   flex: 6;
   gap: 10px;
   height: 100vh;
-  .rightSide{
+  .rightSide {
+    margin: 20px;
+    margin-left: 30px;
     width: 75%;
-    background-color: #F8FAFC;
+    height: 100%;
+    background-color: #f8fafc;
   }
-  .leftSide{
+  .leftSide {
     width: 25%;
     height: 100%;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+  }
+  .list-bottom {
+    border: 2px solid magenta;
+    // background-color: green;
+    display: flex;
+    gap: 50px;
+    padding-left: 10px;
+    // gap: 4rem;
+    // margin-top: -80px;
+    flex-direction: row;
+  }
+  .card {
+    margin-right: 30px;
+  }
+  .leftSide{
+    gap: 1.5rem;
+  font-size: 20px;
+  margin-right: 10px;
+  
   }
 }

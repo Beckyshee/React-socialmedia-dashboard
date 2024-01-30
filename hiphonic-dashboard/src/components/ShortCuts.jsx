@@ -1,4 +1,4 @@
-import React from 'react'
+
 import websiteDesign from "../assets/websitedesign.png";
 import mobileDesign from "../assets/mobiledesign.png";
 import productDesign from "../assets/productdesign.png";

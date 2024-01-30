@@ -1,6 +1,9 @@
 .ShortCutItems {
   display: flex;
   flex-direction: column;
+  gap: 1.5rem;
+  font-size: 20px;
+  padding: 20px;
   // justify-content: center;
   // align-items: center;
   text-transform: capitalize;

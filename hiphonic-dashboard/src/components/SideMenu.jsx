@@ -1,4 +1,4 @@
-import React from 'react'
+
 import timeline from "../assets/timeline.png"
 import friends from "../assets/friends.png";
 import groups from "../assets/groups.png";
@@ -22,7 +22,7 @@ function SideMenu() {
         icon: groups,
       },
       {
-        name: "videos",
+        // name: "videos",
         icon: video,
       },
       {

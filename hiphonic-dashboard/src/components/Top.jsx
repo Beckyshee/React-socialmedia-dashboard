@@ -1,7 +1,7 @@
 import './Top.scss'
 import BackGround from "../assets/background.png"
 import Avatar from "../assets/avatar.png"
-import Bottom from './Bottom';
+
 // import Intro from "../components/Intro";
 // import InBetween from "../layout/InBetween";
 // import Photos from "./Photos";
@@ -45,7 +45,7 @@ const Top = () => {
           
         </div>
         <div className="left-cards">
-          <Bottom />
+          
         </div>
       </div>
     </div>

@@ -6,21 +6,25 @@ import './Mind.scss'
 
 const Mind = () => {
   return (
-    <div className='mindy'>
-      <img src={avatar} alt="angie" />
-      <span>
-        <input type="text" placeholder="what's on your mind?" />
-      </span>
-      <hr />
-      <div className="icons">
-        <div className="mycons">
-          <img src={live} alt="live-video" /> <span>Live Video</span>
+    <div className="mindy">
+      <div className="component">
+        <div className="input">
+          <img src={avatar} alt="angie" />
+          <span>
+            <input type="text" placeholder="what's on your mind?" />
+          </span>
         </div>
-        <div className="mycons">
-          <img src={image} alt="image/video" /> <span>Image/Video</span>
-        </div>
-        <div className="mycons">
-          <img src={star} alt="activity" /> <span>Activity</span>
+        <hr />
+        <div className="icons">
+          <div className="mycons">
+            <img src={live} alt="live-video" />
+          </div>
+          <div className="mycons">
+            <img src={image} alt="image/video" /> <span>Image/Video</span>
+          </div>
+          <div className="mycons">
+            <img src={star} alt="activity" /> <span>Activity</span>
+          </div>
         </div>
       </div>
     </div>
