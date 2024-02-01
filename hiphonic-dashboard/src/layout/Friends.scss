@@ -1,0 +1,50 @@
+.friendsContainer {
+    background-color: white;
+    border-radius: 8px;
+    height: 100%;
+    .friends-menu{
+        display: flex;
+        flex-wrap: wrap;
+        .friendsCard{
+            display: flex;
+            flex-direction: row;
+            margin: 0 auto;
+           
+            .friend{
+                display: flex;
+                flex-direction: column;
+                background-color: #F8FAFC;
+                width: 27vw;
+                margin: 20px;
+                padding: 1rem;
+                gap: 2rem;
+                border-radius: 8px;
+                .friends-card-top{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    .img-name{
+                        display: flex;
+                        align-items: center;
+                    }
+                }
+                .btn{
+                    width: 100%;
+                    button{
+                        width: 100%;
+                        background-color: white;
+                        padding: 1rem 0;
+                        border: none;
+                        border-radius: 8px;
+                        color: blue;
+                        font-size: 17px;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+           
+    }
+
+  
+  }

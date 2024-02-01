@@ -1,0 +1,40 @@
+// // Define variables for heights and widths
+// $navbar-height: 60px; // Adjust as needed
+// $sidebar-width: 200px;
+// $friends-width: 60%; // Adjust as needed
+// $right-section-width: calc(100% - #{$sidebar-width} - #{$friends-width});
+
+
+.contains {
+
+  .navy-bar {
+    height: 60px;
+    background-color: white; 
+    color: white;
+  }
+
+  .sid-bar {
+    width: 150px;
+    float: left;
+    background-color: #f9f8f8; // Example background color
+  }
+
+  .friendship {
+    width: 70%;
+    float: left;
+    background-color: #ccc; // Example background color
+  }
+
+  .right-section {
+    width: 380px;
+    float: left;
+    background-color: #f9f8f8; // Example background color
+  }
+
+  // Clear floats to prevent layout issues
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}

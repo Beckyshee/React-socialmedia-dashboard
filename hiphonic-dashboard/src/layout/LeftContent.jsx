@@ -22,12 +22,7 @@ function LeftContent() {
           <div className="post">
             <Post/>
           </div>
-          {/* <div className="card">
-            <Mind />
-            <div className="last">
-              <Last />
-            </div>
-          </div> */}
+          
         </div>
       </div>
       <div className="leftSide">
