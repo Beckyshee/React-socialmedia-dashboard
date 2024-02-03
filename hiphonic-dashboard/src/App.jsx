@@ -2,8 +2,12 @@ import "./App.scss";
 import Register from "./components/Register";
 import FriendsPage from "./Pages/FriendsPage";
 import Timeline from "./Pages/Timeline";
-
+import Videos from "./Pages/Videos";
+import GroupsPage from "./Pages/GroupsPage";
+import EventsPage from './Pages/EventsPage';
+import PhotosPage from "./Pages/PhotosPage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import NotificationsPage from "./Pages/NotificationsPage";
 
 function App() {
   return (
@@ -12,10 +16,12 @@ function App() {
         <Route path="/" element={<Register />} />
         <Route path="/timeline" element={<Timeline />} />
         <Route path="/friends" element={<FriendsPage />} />
-        {/* <Route path="/groups" element={<Timeline />} />
-        <Route path="/videos" element={<Timeline />} />
-        <Route path="/photos" element={<Timeline />} /> 
-        <Route path="/events" element={<events />} /> */}
+
+        <Route path="/videos" element={<Videos />} />
+        <Route path="/photos" element={<PhotosPage />} />
+        <Route path="/groups" element={<GroupsPage />} />
+        <Route path="/events" element={<EventsPage />} />
+        {/* <Route path="/notification" element={<NotificationsPage />} /> */}
       </Routes>
     </BrowserRouter>
   );

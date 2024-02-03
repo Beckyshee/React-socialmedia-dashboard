@@ -1,0 +1,94 @@
+.notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+   
+    width: 350px; /* Adjust width as needed */
+    background-color: #f2f2f2; /* Grey background color */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    z-index: 1000; /* Ensure it appears above other content */
+    max-height: 95vh; // Limiting the height to 80% of the viewport height
+    overflow-y: auto; // Enable vertical scrolling when content exceeds max height
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd; /* Separator line */
+  }
+  
+  .header h2 {
+    margin: 0;
+ 
+  }
+  h2{
+    color:  rgba(148, 163, 184, 1);
+    font-family: Inter;
+ font-size: 16px;
+ font-weight: 700; 
+ padding: 3px 0px 5px 10px;
+  }
+  
+  .header img {
+    cursor: pointer;
+
+  }
+  
+  .name {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 10px;
+    
+    button{
+    //  color: rgba(37, 99, 235, 1);
+    background-color: white;
+     display: flex;
+     width: 90px;
+     height: 20px;
+     padding: 2px;
+     border-radius: 12px;
+     border: none;
+
+    }
+  }
+  
+  .notificationItems {
+    padding: 8px;
+  }
+  
+  .today {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: white;
+  }
+  
+  .items-items {
+    display: flex;
+    align-items: center;
+  }
+  
+  .items-items img {
+    width: 40px; /* Adjust image size as needed */
+    height: 40px; /* Adjust image size as needed */
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .itemName {
+    flex: 1;
+  }
+  
+  .itemName p {
+    margin: 0;
+  }
+  
+  span {
+    font-size: 12px;
+    color: #888;
+  }
+  
