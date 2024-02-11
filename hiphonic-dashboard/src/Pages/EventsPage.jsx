@@ -1,4 +1,4 @@
-
+import './EventsPage.scss'
 
 const EventsPage = () => {
   return (

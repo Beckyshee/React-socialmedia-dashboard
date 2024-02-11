@@ -17,7 +17,7 @@ function App() {
         <Route path="/timeline" element={<Profile />} />
         <Route path="/friends" element={<FriendsPage />} />
 
-        <Route path="/videos" element={<Videos />} />
+        <Route path="/video" element={<Videos />} />
         <Route path="/photos" element={<PhotosPage />} />
         <Route path="/groups" element={<GroupsPage />} />
         <Route path="/events" element={<EventsPage />} />
