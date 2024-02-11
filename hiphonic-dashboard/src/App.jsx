@@ -1,7 +1,7 @@
 import "./App.scss";
 import Register from "./components/Register";
 import FriendsPage from "./Pages/FriendsPage";
-import Timeline from "./Pages/Timeline";
+import Profile from "./Pages/Profile";
 import Videos from "./Pages/Videos";
 import GroupsPage from "./Pages/GroupsPage";
 import EventsPage from './Pages/EventsPage';
@@ -14,7 +14,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Register />} />
-        <Route path="/timeline" element={<Timeline />} />
+        <Route path="/timeline" element={<Profile />} />
         <Route path="/friends" element={<FriendsPage />} />
 
         <Route path="/videos" element={<Videos />} />

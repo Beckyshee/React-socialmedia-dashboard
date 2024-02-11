@@ -1,7 +1,7 @@
 import "./Last.scss";
 import avatar from "../assets/Avatar.png";
-import pink from "../assets/unsplash_c1rOy44wuts.png";
-import blue from "../assets/unsplash_XeYx043QD5U.png";
+import pink from "../assets/pink.png";
+import blue from "../assets/blue.png";
 import like from "../assets/heart.png";
 import comment from "../assets/message-circle.png";
 import share from "../assets/share.png";

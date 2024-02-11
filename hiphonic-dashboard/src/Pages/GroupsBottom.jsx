@@ -1,11 +1,14 @@
-import React from 'react'
+import "./GroupsBottom.scss";
+import de from '../assets/Group1.png'
+import design from '../assets/design.png'
+import paper from '../assets/paper.png'
 
 const GroupsBottom = () => {
   return (
     <div className="lower-group">
       <div className="lower-nav">
         <div>
-          <img src={Avatar5} alt="" srcset="" />
+          <img src={de} alt=""  />
         </div>
         <div className="lower-text">
           <h4>Design Enthusist</h4>
@@ -22,15 +25,14 @@ const GroupsBottom = () => {
       </div>
       <div className="Images8">
         <div>
-          <img src={pen} alt="" srcset="" />
+          <img src={design} alt=""  />
         </div>
         <div>
-          {" "}
-          <img src={phone} alt="" srcset="" />
+          <img src={paper} alt=""  />
         </div>
       </div>
     </div>
   );
-}
+};
 
-export default GroupsBottom
+export default GroupsBottom;

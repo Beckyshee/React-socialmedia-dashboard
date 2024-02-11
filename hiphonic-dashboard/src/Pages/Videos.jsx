@@ -2,7 +2,7 @@
 
 const Videos = () => {
   return (
-    <div>Videos</div>
+    <div>Videos page</div>
   )
 }
 

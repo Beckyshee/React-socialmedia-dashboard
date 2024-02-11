@@ -1,4 +1,14 @@
-
+import search from '../assets/default.png'
+import dots from '../assets/dots-vertical.png'
+import ud from '../assets/ud.png'
+import ui from '../assets/ui.png'
+import phone from '../assets/phone.png'
+import laptop from '../assets/laptop.png'
+import jane from '../assets/jane.png'
+import cameron from '../assets/cameron.png'
+import wade from '../assets/wade.png'
+import angela from '../assets/Avatar.png'
+import './GroupTop.scss'
 
 const GroupTop = () => {
   return (
@@ -23,12 +33,12 @@ const GroupTop = () => {
         </div>
       </div>
       
-      <div className="PHOTOS">
+      <div className="photoz">
         <div className="right-group-photo">
           <div className="photos">
             <div className="photos-nav">
               <div className="photos-left">
-                <img src={Avatar4} alt="" srcset="" />
+                <img src={ud} alt=""/>
 
                 <div className="upper-text">
                   <h4>Ui/Ux Designer</h4>
@@ -40,14 +50,14 @@ const GroupTop = () => {
               <img src={dots} />
             </div>
           </div>
-          <div className="IMAGE">
-            <img src={Mask} alt="" srcset="" />
+          <div className="photoz">
+            <img src={phone} alt=""/>
           </div>
           <div className="groups-footer">
             <button>join Group</button>
             <div className="small-images">
-              <img src={Avatar5} alt="" srcset="" />
-              <img src={Avatar6} alt="nopic" srcset="" />
+              <img src={cameron} alt=""/>
+              <img src={jane} alt="nopic"/>
             </div>
           </div>
         </div>
@@ -56,7 +66,7 @@ const GroupTop = () => {
           <div className="photos">
             <div className="photos-nav">
               <div className="photos-left">
-                <img src={Avatar4} alt="" srcset="" />
+                <img src={ui} alt=""/>
 
                 <div className="upper-text">
                   <h4>User Interface</h4>
@@ -68,14 +78,14 @@ const GroupTop = () => {
               <img src={dots} />
             </div>
           </div>
-          <div className="IMAGE">
-            <img src={Mask1} alt="" srcset="" />
+          <div className="photoz">
+            <img src={laptop} alt=""/>
           </div>
           <div className="groups-footer">
             <button>join Group</button>
             <div className="small-images">
-              <img src={Avatar5} alt="" srcset="" />
-              <img src={Avatar6} alt="nopic" srcset="" />
+              <img src={wade} alt=""/>
+              <img src={angela} alt="nopic"  />
             </div>
           </div>
         </div>

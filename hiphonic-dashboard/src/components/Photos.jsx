@@ -1,6 +1,6 @@
 
-import pink from '../assets/unsplash_c1rOy44wuts.png'
-import blue from '../assets/unsplash_XeYx043QD5U.png'
+import pink from '../assets/pink.png'
+import blue from '../assets/blue.png'
 import './Photos.scss'
 
 const Photos = () => {

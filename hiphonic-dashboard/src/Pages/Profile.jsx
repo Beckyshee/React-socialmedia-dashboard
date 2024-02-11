@@ -1,10 +1,10 @@
 import Navbar from '../layout/Navbar'
 import MainBody from '../layout/MainBody'
-import './Timeline.scss'
+import './Profile.scss'
 
 
 
-const Timeline = () => {
+const Profile = () => {
     return (
       <div>
         <Navbar />
@@ -13,4 +13,4 @@ const Timeline = () => {
     );
 };
 
-export default Timeline;
+export default Profile;
