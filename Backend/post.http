@@ -1,0 +1,41 @@
+### registering a user
+POST http://localhost:5400/api/posts
+Content-Type: application/json
+
+{
+    "UserID": "20072356-9d6d-427b-9a0a-d02f1270a560",
+    "Content" : "Kanyes new album has a fire cover"
+}
+
+
+
+###
+# getting a single user
+GET http://localhost:5400/api/users/20072356-9d6d-427b-9a0a-d02f1270a560
+Content-Type: application/json
+
+
+###
+# get all users
+
+GET http://localhost:5400/api/posts/all/
+
+
+
+### updating a users
+PUT http://localhost:5400/api/update/64fc9acf-cc82-493d-87f1-127980887f71
+Content-Type: application/json
+
+{
+    "Username": "Rebecca Kariuki",
+    "Email" : "becky shee",
+    "Password" : "12345678",
+    "TagName": "becks",
+    "Location" : "skuta"
+}
+
+
+
+###
+# delete a users
+DELETE http://localhost:5400/api/delete/a0302bd8-4d02-4e2c-a2d5-8a3da8720a9a
