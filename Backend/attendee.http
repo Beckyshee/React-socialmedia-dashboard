@@ -1,0 +1,41 @@
+### creating an eventattendees
+POST http://localhost:5400/api/eventattendees
+Content-Type: application/json
+
+{
+    "EventID": "123456",
+    "AttendeeID": "789012"
+}
+
+
+
+###
+# getting a single eventattendees
+GET http://localhost:5400/api/eventattendees/d26be4c2-1a2e-4936-bd1b-fb2f60c3dc04
+Content-Type: application/json
+
+
+
+###
+# get all eventattendees
+
+GET http://localhost:5400/api/eventattendees/alleventattendees
+
+
+
+
+### updating a eventattendees
+PUT http://localhost:5400/api/eventattendees/update/6d7014dd-191f-44f7-a203-f54776520c56
+Content-Type: application/json
+
+{
+    "EventID": "123456",
+    "AttendeeID": "789012"
+}
+
+
+
+
+###
+# delete a eventattendees
+DELETE http://localhost:5400/api/eventattendees/delete/6d7014dd-191f-44f7-a203-f54776520c56

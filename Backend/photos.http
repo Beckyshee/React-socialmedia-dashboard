@@ -1,0 +1,42 @@
+### creating a photo
+POST http://localhost:5400/api/photos
+Content-Type: application/json
+
+{
+    "UserID": "fd6fccb1-5aad-48ad-a938-d66923da1e9f",
+    "PhotoURL": "https://example.com/photo5.jpg",
+    "UploadDate": "2024-01-15T08:00:00Z"
+}
+
+
+
+###
+# getting a single photo
+GET http://localhost:5400/api/photos/d26be4c2-1a2e-4936-bd1b-fb2f60c3dc04
+Content-Type: application/json
+
+
+
+###
+# get all photos
+
+GET http://localhost:5400/api/photos/allphotos
+
+
+
+
+### updating a photos
+PUT http://localhost:5400/api/photos/update/6d7014dd-191f-44f7-a203-f54776520c56
+Content-Type: application/json
+
+{
+    "PhotoURL": "https://example.com/photo2.jpg",
+    "UploadDate": "2024-02-15T08:00:00Z"
+}
+
+
+
+
+###
+# delete a photos
+DELETE http://localhost:5400/api/photos/delete/6d7014dd-191f-44f7-a203-f54776520c56

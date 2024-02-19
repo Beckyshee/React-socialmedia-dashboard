@@ -1,0 +1,40 @@
+### creating an event
+POST http://localhost:5400/api/messages
+Content-Type: application/json
+
+{
+    "SenderID": "e081256d-796f-4dcc-9553-1959c887ce5f",
+    "ReceiverID": "fd6fccb1-5aad-48ad-a938-d66923da1e9f",
+    "MessageDate": "02-16-2024",
+    "Content": "are you doing okay?"
+}
+
+
+
+###
+# getting a single event
+GET http://localhost:5400/api/messages/7aee4e4c-6d40-45f7-bac2-28de47b2a12e
+Content-Type: application/json
+
+
+###
+# get all events
+
+GET http://localhost:5400/api/messages/allmessages
+
+
+
+### updating an event
+PUT http://localhost:5400/api/messages/update/5d1d06b6-5cdc-4149-a48e-9b7ae80a5611
+Content-Type: application/json
+
+{
+    
+    "Content": "whats good"
+}
+
+
+
+###
+# delete an event
+DELETE http://localhost:5400/api/messages/delete/7aee4e4c-6d40-45f7-bac2-28de47b2a12e
