@@ -1,0 +1,38 @@
+### creating a group
+POST http://localhost:5400/api/comments
+Content-Type: application/json
+
+{
+    "PostID": "d1f8bba4-6082-4b4b-8d63-0e5d7f177078",
+    "UserID": "20072356-9d6d-427b-9a0a-d02f1270a560",
+    "Content": "you got this"
+}
+
+
+
+###
+# getting a single group
+GET http://localhost:5400/api/comments/d5946d49-49d2-4ee3-992f-70fcc7b5af95
+Content-Type: application/json
+
+
+###
+# get all comments
+
+GET http://localhost:5400/api/comments/allcomments
+
+
+
+### updating a comment
+PUT http://localhost:5400/api/comments/update/d5946d49-49d2-4ee3-992f-70fcc7b5af95
+Content-Type: application/json
+
+{
+    "Content": "the comment is just on another level"
+}
+
+
+
+###
+# delete a comment
+DELETE http://localhost:5400/api/comments/delete/d5946d49-49d2-4ee3-992f-70fcc7b5af95

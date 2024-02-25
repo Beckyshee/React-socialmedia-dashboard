@@ -1,0 +1,39 @@
+### registering a user
+POST http://localhost:5400/api/posts
+Content-Type: application/json
+Authorization: JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhYjE4YjlhYi1iYWE4LTQyYWQtYWVlYS00NGE2YjMwM2UxZjEiLCJpYXQiOjE3MDg3ODMyNDIsImV4cCI6MTcwOTA0MjQ0Mn0.s__YM3c4eE8pfQrtAdaJhifeKorJ3US2Gfp8-EvWF5c
+
+{
+    "UserID": "ab18b9ab-baa8-42ad-aeea-44a6b303e1f1",
+    "Content": "Your post content here"
+}
+
+
+
+###
+# getting a single post
+GET http://localhost:5400/api/posts/20072356-9d6d-427b-9a0a-d02f1270a560
+Content-Type: application/json
+
+
+###
+# get all posts
+
+GET http://localhost:5400/api/posts/all/
+
+
+
+### updating a post
+PUT http://localhost:5400/api/posts/update/d1f8bba4-6082-4b4b-8d63-0e5d7f177078
+Content-Type: application/json
+
+{
+
+    "Content" : "Kanyes new album has a fire cover but my beats were slapping"
+}
+
+
+
+###
+# delete a post
+DELETE http://localhost:5400/api/posts/delete/132bbf10-552e-4c19-8c68-bcbc34fa11df
